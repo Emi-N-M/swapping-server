@@ -9,7 +9,7 @@ console.log("items: ", items);
 
 app.get("/", (req, res) => {
   console.log("Request recived");
-  res.send(items);
+  res.send("IT WORKS");
 });
 
 app.listen(port, () => {
