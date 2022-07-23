@@ -16,9 +16,7 @@ export const Item = sequelize.define(
     address: {
       type: DataTypes.STRING,
     },
-    tags: {
-      type: DataTypes.ARRAY(DataTypes.STRING),
-    },
+
     description: {
       type: DataTypes.STRING,
     },
