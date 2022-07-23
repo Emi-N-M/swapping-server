@@ -11,13 +11,6 @@ export async function getItems(req, res) {
       },
     });
 
-    //
-
-    for (let index = 0; index < array.length; index++) {
-      const element = array[index];
-      4000;
-    }
-
     res.json(items);
   } catch (error) {
     res.status(500).json({
